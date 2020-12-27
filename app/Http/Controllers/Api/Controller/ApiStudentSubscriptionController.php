@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api\Controller;
 
 
+use App\Http\Controllers\Api\Requests\StudentSubscriptionRequest;
 use App\Models\StudentSubscription;
 
 /**
@@ -11,10 +12,13 @@ use App\Models\StudentSubscription;
  */
 class ApiStudentSubscriptionController
 {
-    public function store()
+    public function store(StudentSubscriptionRequest $request)
     {
         try {
-            $student = StudentSubscription::where('uid', request()->input('uid'))->get();
+            $student = StudentSubscription::where('phoneNumber', $request->input('phoneNumber'))->get();
+            if (isset($student) && request()->isMethod('POST')){
+                $student = new StudentSubscription($request->validated());
+            }
         } catch (\Exception $exception){
             return response([
                 'code' => $exception->getCode(),

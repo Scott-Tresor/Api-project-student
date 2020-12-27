@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\ViewModels;
 
+use Illuminate\Database\Eloquent\Model;
+
 /**
  * Class CRUDViewModel
  * @package App\Http\Controllers\Data
