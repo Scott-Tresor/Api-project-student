@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b55e20a2-4984-42ee-b93e-35805ff105f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/Controller/StudentSubscriptionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Form/StudentResultForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/isc-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/isc-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Controller/StudentSubscriptionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Controller/ApiStudentSubscriptionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Form/StudentSubscriptionForm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ViewModels/CrudViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Data/CrudViewModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Controller/ApiStudentSubscriptionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Controller/ApiStudentSubscriptionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Requests/StudentSubscriptionRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/StudentSubscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/StudentSubscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_27_104820_create_student_subscriptions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_27_104820_create_student_subscriptions_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Controller/ApiStudentSubscriptionController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -208,7 +207,7 @@
       <workItem from="1608975809799" duration="3022000" />
       <workItem from="1608984134669" duration="1370000" />
       <workItem from="1609044362313" duration="3581000" />
-      <workItem from="1609065424348" duration="741000" />
+      <workItem from="1609065424348" duration="12319000" />
     </task>
     <servers />
   </component>

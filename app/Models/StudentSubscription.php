@@ -7,8 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * @method static where(string $string, mixed $input)
+ * @method static orderBy(string $string, string $string1)
  */
 class StudentSubscription extends Model
 {
     use HasFactory;
+
+    protected $guarded = [];
 }
