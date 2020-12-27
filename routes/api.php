@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Backend\Controller\StudentResultController;
+use App\Http\Controllers\Api\Controller\ApiStudentSubscriptionController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -19,4 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('result', StudentResultController::class);
+Route::apiResource('student', ApiStudentSubscriptionController::class);
