@@ -13,5 +13,19 @@ class StudentSubscription extends Model
 {
     use HasFactory;
 
-    protected $guarded = [];
+    protected $fillable = [
+        'username',
+        'firstname',
+        'sex',
+        'birthdays_student',
+        'birth_place',
+        'phone_number',
+        'email',
+        'address',
+        'school_name',
+        'bac_code',
+        'option',
+        'percent',
+        'department1'
+    ];
 }

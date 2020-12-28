@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Controllers\Api\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
@@ -28,17 +28,14 @@ class StudentSubscriptionRequest extends FormRequest
             'sex' => 'required',
             'birthdays_student' => 'required|date',
             'birth_place' => 'required|min:4',
-            'phone_number' => 'required|unique:student_subscriptions|integer',
+            'phone_number' => 'required|integer',
             'email' => 'required|email',
             'address' => 'required',
-            'town_student' => 'nullable|string',
             'school_name' => 'required|string',
-            'state_student' => 'nullable|string',
-            'bac_code' => 'required|unique:student_subscriptions|max:16',
+            'bac_code' => 'required|max:16',
             'option' => 'required|string',
             'percent' => 'required|integer',
             'department1' => 'required|string',
-            'department2' => 'nullable|string'
         ];
     }
 }
